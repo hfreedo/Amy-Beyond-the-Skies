@@ -17,7 +17,7 @@
 
 ## 👋 ¡Bienvenidos al repositorio oficial de Amy: Beyond the Skies!
 
-Este repositorio reúne el proyecto actualizado de **Amy: Beyond the Skies** (desarrollado en **Construct 2**), junto con su hoja de sprites mejorada (`v2`), efectos visuales de salto/aterrizaje/victoria, sonidos, música del menú y guías paso a paso para que los alumnos puedan abrirlo, estudiarlo o continuar mejorándolo.
+Este repositorio reúne el proyecto actualizado de **Amy: Beyond the Skies** (desarrollado en **Construct 2**), junto con su hoja de sprites mejorada (`v2`), efectos visuales de salto/aterrizaje/victoria, sonidos, música del menú, guías de desarrollo y **materiales listos para imprimir para la exposición escolar (stickers, manual de juego y portadas)**.
 
 ---
 
@@ -32,7 +32,7 @@ Elige la opción que mejor se adapte a lo que necesitas:
      - `Amy_Beyond_the_Skies_integrado_v2.capx` (Proyecto integrado listo para Construct 2)
      - `Amy_animaciones_actuales.zip` (Paquete de animaciones y sonidos v2)
      - `Amy_recursos_para_integracion.zip` (Kit completo de recursos y documentación)
-3. **Quiero descargar todo el repositorio (proyecto, catálogos HTML, música, videos y portadas):**
+3. **Quiero descargar todo el repositorio (proyecto, imprimibles, catálogos HTML, música, videos y portadas):**
    - Arriba a la derecha en esta página de GitHub, haz clic en el botón verde **`<> Code`** y selecciona **`Download ZIP`**. Luego descomprime la carpeta en tu PC.
 
 > [!IMPORTANT]
@@ -87,17 +87,21 @@ Ubicada en [`Animaciones_v2/Assets/Efectos/efectos_4x3.png`](Animaciones_v2/Asse
   - **Fila 2 (`fx_aterrizaje`, frames 4–7, 16 fps):** Impacto suave sobre la plataforma al tocarla.
   - **Fila 3 (`fx_victoria`, frames 8–11, 12 fps):** Destellos mágicos al llegar al portal de meta.
 
-### C. Efectos de Sonido y Música
-- **Sonidos de partida (`Animaciones_v2/Assets/Audio/`):** Incluye `salto`, `aterrizaje`, `inicio` y `victoria` en formatos `.wav`, `.ogg` y `.m4a`.
-- **Música de menú (`Menu_Animado/Musica/`):** Variantes musicales ambientales celestiales (`Ammy floating...`, `Floating_celestial_menu_loop.mp3`, etc.).
+---
 
-Para consultar todas las instrucciones detalladas de integración y verificación en Construct 2, abre:
-- 📄 [`Proyecto/INSTRUCCIONES_PARA_IA.md`](Proyecto/INSTRUCCIONES_PARA_IA.md) — Guía técnica completa paso a paso.
-- 📄 [`Animaciones_v2/LEEME.md`](Animaciones_v2/LEEME.md) — Ficha del paquete de animaciones v2.
+## 🖨️ 5. Materiales Imprimibles para el Stand Escolar (`Imprimibles_Amy/`)
+
+Todos los materiales promocionales del equipo están listos en formato **PDF A4** (imprimir al 100 % sin escalar):
+
+| Material | Archivo PDF listo para imprimir (A4) | Vista previa / Contenido |
+|---|---|---|
+| **1. Plancha de Stickers (v1)** | [`Paquete_Stickers_Amy_Beyond_the_Skies_A4_v1.pdf`](Imprimibles_Amy/01_Stickers/Imprimir/Paquete_Stickers_Amy_Beyond_the_Skies_A4_v1.pdf) | 9 stickers por hoja A4 con 3 motivos exclusivos: **Amy Explorando**, **Amy Pulgar Arriba** y **Amy Señalando**. [Ver vista previa](Imprimibles_Amy/01_Stickers/Vista_previa/Plancha_A4_v1.png) |
+| **2. Manual de Juego Cuadernillo (v1)** | [`Manual_Amy_Beyond_the_Skies_Cuadernillo_A4_v1.pdf`](Imprimibles_Amy/02_Manual_de_Juego/Imprimir/Manual_Amy_Beyond_the_Skies_Cuadernillo_A4_v1.pdf) · [Versión Digital](Imprimibles_Amy/02_Manual_de_Juego/Digital/Manual_Amy_Beyond_the_Skies_12x18_v1.pdf) | Librito de 4 páginas (12 × 18 cm) con portada, controles, objetivo y consejos ilustrados. [Leer instrucciones de plegado](Imprimibles_Amy/02_Manual_de_Juego/LEEME.md) |
+| **3. Portada Promocional 12×18 (v1)** | [`Portada_Amy_Beyond_the_Skies_12x18_A4_v1.pdf`](Imprimibles_Amy/03_Portada_Imprimible/Imprimir/Portada_Amy_Beyond_the_Skies_12x18_A4_v1.pdf) · [Digital](Imprimibles_Amy/03_Portada_Imprimible/Digital/Portada_Amy_Beyond_the_Skies_PC_Demo_v1.png) | Portada para caja o exhibidor del stand lista para recortar a 12 × 18 cm. [Leer guía](Imprimibles_Amy/03_Portada_Imprimible/LEEME.md) |
 
 ---
 
-## 📂 5. Estructura de carpetas del repositorio
+## 📂 6. Estructura de carpetas del repositorio
 
 ```text
 Amy-Beyond-the-Skies/
@@ -107,6 +111,10 @@ Amy-Beyond-the-Skies/
 ├── Proyecto_Original/                              # Versiones iniciales de referencia de los alumnos
 │   ├── amy.capx                                    # Prototipo original de salto
 │   └── amy_con_menu.capx                           # Primera versión con menú incorporado
+├── Imprimibles_Amy/                                # 🖨️ Materiales listos para imprimir en A4
+│   ├── 01_Stickers/                                # Plancha de stickers coleccionables (3 poses)
+│   ├── 02_Manual_de_Juego/                         # Manual cuadernillo A4 (4 páginas plegables)
+│   └── 03_Portada_Imprimible/                      # Carátula 12x18 cm en A4 y PNG digital
 ├── Animaciones_v2/                                 # Kit de animaciones corregidas v2 y vistas HTML
 │   ├── Assets/                                     # Sprites 3x4, efectos 4x3, carteles, portal y audio
 │   ├── ORIGENES_PERSONAJE.csv                      # Coordenadas exactas de origen por fotograma
