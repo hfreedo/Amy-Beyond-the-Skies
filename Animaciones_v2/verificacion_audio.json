@@ -1,0 +1,42 @@
+[
+  {
+    "archivo": "salto",
+    "duracion_s": 0.17,
+    "pico_PCM": 0.45937762074870536,
+    "formatos": [
+      "wav",
+      "ogg",
+      "m4a"
+    ]
+  },
+  {
+    "archivo": "aterrizaje",
+    "duracion_s": 0.14,
+    "pico_PCM": 0.2985383982566914,
+    "formatos": [
+      "wav",
+      "ogg",
+      "m4a"
+    ]
+  },
+  {
+    "archivo": "inicio",
+    "duracion_s": 0.64,
+    "pico_PCM": 0.4574207191446462,
+    "formatos": [
+      "wav",
+      "ogg",
+      "m4a"
+    ]
+  },
+  {
+    "archivo": "victoria",
+    "duracion_s": 1.4,
+    "pico_PCM": 0.46570791884613993,
+    "formatos": [
+      "wav",
+      "ogg",
+      "m4a"
+    ]
+  }
+]

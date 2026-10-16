@@ -1,0 +1,147 @@
+[
+  {
+    "archivo": "Assets/Audio/aterrizaje.m4a",
+    "bytes": 2333,
+    "sha256": "1e72338fdec4bfcdb57c77f5d10694136b56546bbed78e805a5c12a0e7f06eb5"
+  },
+  {
+    "archivo": "Assets/Audio/aterrizaje.ogg",
+    "bytes": 4713,
+    "sha256": "5e716ee25b25cea3b53ae278f8c4c302ed63a94dc42d302cf96abf9a19779563"
+  },
+  {
+    "archivo": "Assets/Audio/aterrizaje.wav",
+    "bytes": 12392,
+    "sha256": "2474ddefee7765ee8b2d402fbf7ebadd2dcc05e298f77d53967f114497924ffa"
+  },
+  {
+    "archivo": "Assets/Audio/inicio.m4a",
+    "bytes": 7006,
+    "sha256": "a127f02855e664fbbbc5f2a39793cf7130abcbde9b115d0b724798ab9bd84284"
+  },
+  {
+    "archivo": "Assets/Audio/inicio.ogg",
+    "bytes": 5615,
+    "sha256": "423c044a26284a2e1a159d002d6184b676ecc21b29a2cf047cf824adea5e206b"
+  },
+  {
+    "archivo": "Assets/Audio/inicio.wav",
+    "bytes": 56492,
+    "sha256": "7c6e70217b58b660a16ae23c00e4e2925161cc1ad08bfe314e2403164ed3abd5"
+  },
+  {
+    "archivo": "Assets/Audio/salto.m4a",
+    "bytes": 2700,
+    "sha256": "0db30c5b436af51cb7754c74e5e9c16d722cbec715029bf2642f2dbe1a120b67"
+  },
+  {
+    "archivo": "Assets/Audio/salto.ogg",
+    "bytes": 4096,
+    "sha256": "8b3ebafcf3993df783ef42dff76330a01704994316792bf94baf43b84483b7c3"
+  },
+  {
+    "archivo": "Assets/Audio/salto.wav",
+    "bytes": 15038,
+    "sha256": "9f8ed165ed1b3f5252d9824b033b98af9a3348120e943eff994939757585f1b4"
+  },
+  {
+    "archivo": "Assets/Audio/victoria.m4a",
+    "bytes": 13556,
+    "sha256": "2b63e0a3d7910a6bfc75003401c6d41d9299e00f9a6da9cea235c7b59ba79a8d"
+  },
+  {
+    "archivo": "Assets/Audio/victoria.ogg",
+    "bytes": 8384,
+    "sha256": "37b397d34006c501b5319539463763a2f6563bc92093a69923224abd758ef43b"
+  },
+  {
+    "archivo": "Assets/Audio/victoria.wav",
+    "bytes": 123524,
+    "sha256": "ce4596dd65b9d5f783d8494f7693687134f021d0e088240457afe4a157961bff"
+  },
+  {
+    "archivo": "Assets/Efectos/efectos_4x3.png",
+    "bytes": 648367,
+    "sha256": "0cb8153c092e45496badd8e09e2e4b579bd6a942ada0b8eea3f16812e29cde3c"
+  },
+  {
+    "archivo": "Assets/Interfaz/final_demo_completada.png",
+    "bytes": 1743355,
+    "sha256": "29687e0772530bb5b8b89c108b384618003e6c15f84c7e2c03bb6825e3efb8c3"
+  },
+  {
+    "archivo": "Assets/Interfaz/inicio_vamos_amy.png",
+    "bytes": 1584037,
+    "sha256": "c1fe63d9eff061592e0b055d6648d5e74918af42915fd78446c65c721bc90b51"
+  },
+  {
+    "archivo": "Assets/Meta/portal_llegada.png",
+    "bytes": 1574624,
+    "sha256": "9c05916154ba0d855f7ef5bc36c36600affe1fdfa62dadc667ff3c1bd82e7480"
+  },
+  {
+    "archivo": "Assets/Personaje/amy_movimiento_3x4.png",
+    "bytes": 615139,
+    "sha256": "327a3c03f9c615ca20ee3b06137a958a5c2f7f670a367037e326a963ac943105"
+  },
+  {
+    "archivo": "Catalogo.png",
+    "bytes": 354429,
+    "sha256": "a5a20d1e363c03d4a40f05a5e7f2c5d6240b44b8560b3ae05ef02c0560f86c3a"
+  },
+  {
+    "archivo": "Catalogo_cielo.png",
+    "bytes": 378407,
+    "sha256": "1241510d2d7aadb2c56d50f22e76293f7c0e447002e9d23cb7cd20eb4b93fd9b"
+  },
+  {
+    "archivo": "LEEME.md",
+    "bytes": 7335,
+    "sha256": "53e63bc13a327551244723900e1d2365c6e4f6238ca28d8fdc0479b554473279"
+  },
+  {
+    "archivo": "manifest.json",
+    "bytes": 6516,
+    "sha256": "b9f44449512d0341983549eaf846ce65692f3deaf495c6a28a03ec9a216ce6b4"
+  },
+  {
+    "archivo": "ORIGENES_PERSONAJE.csv",
+    "bytes": 396,
+    "sha256": "8e1deb227528ca2a33e230b6539eb3b824b6845cc7aad454647cb6e0d40edc7b"
+  },
+  {
+    "archivo": "prompts.json",
+    "bytes": 14601,
+    "sha256": "04954abd542e2f9151a309784a62dcf5eb609d121c4ae8734196b929922e25f5"
+  },
+  {
+    "archivo": "Revision_rodillas.html",
+    "bytes": 1595,
+    "sha256": "785358c461c204bc7a780bf4b9cda0a14077be19167d59dc3c66acc478d65fb2"
+  },
+  {
+    "archivo": "REVISION_RODILLAS.md",
+    "bytes": 1175,
+    "sha256": "fec76d8b7800a9d2e94af8061e659bf20bc8a1f5e9310486bc7a5b2d5b601d50"
+  },
+  {
+    "archivo": "Revision_rodillas.png",
+    "bytes": 327477,
+    "sha256": "3b27f59bd5820d38a7283bb23cd5918c5934ca59832a77ff545e034833a0cc65"
+  },
+  {
+    "archivo": "verificacion_audio.json",
+    "bytes": 673,
+    "sha256": "e9b56da638e01e1f19ebb05409de33fe7921d264cb5f35e2c3c5ceb2d6cadcd5"
+  },
+  {
+    "archivo": "verificacion_vista.json",
+    "bytes": 1181,
+    "sha256": "f316adf640677e48ea9d0c41e14140312d6d60479c1a708b0361a936577dcab1"
+  },
+  {
+    "archivo": "Vista_previa.html",
+    "bytes": 6699,
+    "sha256": "3605bee14f61f238a33f2f06d8d045888472bb29c2f41b4c00c3d4829c59ed16"
+  }
+]

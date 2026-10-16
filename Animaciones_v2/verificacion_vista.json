@@ -1,0 +1,81 @@
+{
+  "hojas": [
+    {
+      "columnas": 3,
+      "filas": 4,
+      "celda": [
+        362,
+        362
+      ]
+    },
+    {
+      "columnas": 3,
+      "filas": 4,
+      "celda": [
+        362,
+        362
+      ]
+    },
+    {
+      "columnas": 3,
+      "filas": 4,
+      "celda": [
+        362,
+        362
+      ]
+    },
+    {
+      "columnas": 3,
+      "filas": 4,
+      "celda": [
+        362,
+        362
+      ]
+    },
+    {
+      "columnas": 4,
+      "filas": 3,
+      "celda": [
+        362,
+        362
+      ]
+    },
+    {
+      "columnas": 4,
+      "filas": 3,
+      "celda": [
+        362,
+        362
+      ]
+    },
+    {
+      "columnas": 4,
+      "filas": 3,
+      "celda": [
+        362,
+        362
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "archivo": "Assets/Audio/salto.wav",
+      "duracion": 0.17
+    },
+    {
+      "archivo": "Assets/Audio/aterrizaje.wav",
+      "duracion": 0.14
+    },
+    {
+      "archivo": "Assets/Audio/inicio.wav",
+      "duracion": 0.64
+    },
+    {
+      "archivo": "Assets/Audio/victoria.wav",
+      "duracion": 1.4
+    }
+  ],
+  "pausa_y_reproduccion": true,
+  "errores": [],
+  "limite": "Vista de recursos; no ejecuta Construct 2."
+}

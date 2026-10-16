@@ -1,0 +1,16 @@
+# Construct 2 backups y archivos temporales
+*.autosave
+*.backup*
+*.capx.bak
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Carpetas temporales de verificación o ejecución
+.preview-runtime/
+.preview-recordings/
+.preview-extracted/
+__pycache__/
+node_modules/
