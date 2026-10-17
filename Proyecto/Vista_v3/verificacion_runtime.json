@@ -1,0 +1,28 @@
+{
+  "resultado": "PASS",
+  "tests": [
+    "Carga del menú en motor Construct 2",
+    "Salto usa impulso, ascenso y caída",
+    "Caída corresponde al movimiento descendente",
+    "Pausa existente funciona",
+    "Reanudación existente funciona",
+    "Caída activa globos y suspende física",
+    "Rescate conserva cámara y progreso",
+    "Se conserva la plataforma segura",
+    "Rescate no crea plataformas duplicadas",
+    "Amy asciende durante el rescate",
+    "Animación de globos avanza",
+    "Llega al punto seguro con pose normal",
+    "Reanuda el juego con física habilitada",
+    "La creación del portal registra su plataforma real",
+    "Tocar el portal en ascenso no activa festejo",
+    "Aterrizar en otra plataforma aunque roce el portal no activa festejo",
+    "Aterrizar sobre la plataforma del portal activa festejo antes del rebote",
+    "Portal inicia festejo antes del panel",
+    "Festejo avanza sin reiniciarse",
+    "Panel aparece al terminar festejo",
+    "Victoria no reinicia ni vuelve a rescate",
+    "Sin errores JavaScript"
+  ],
+  "sha256": "36e440bdad7c47af34e20b1b19ba7369f8d736df18ad7181f8a71c461bac7273"
+}

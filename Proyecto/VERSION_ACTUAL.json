@@ -1,0 +1,7 @@
+{
+  "version": "v3.0",
+  "archivo": "Amy_Beyond_the_Skies_animaciones_v3_corregido.capx",
+  "sha256": "36e440bdad7c47af34e20b1b19ba7369f8d736df18ad7181f8a71c461bac7273",
+  "validacion": "22 comprobaciones puntuales en la vista previa real de Construct 2 PASS, con SHA-256 coincidente. Los casos de rescate y meta reposicionan objetos en memoria; no es un recorrido manual completo.",
+  "actualizado": "2026-10-17"
+}
