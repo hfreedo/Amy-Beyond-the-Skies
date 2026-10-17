@@ -101,10 +101,30 @@ Todos los materiales promocionales del equipo están listos en formato **PDF A4*
 
 ---
 
-## 📂 6. Estructura de carpetas del repositorio
+## 📚 6. Documentación del equipo en Office
+
+Los tres archivos editables están juntos en [`Documentacion/`](Documentacion/), con sus nombres actuales:
+
+| Archivo | Para qué sirve | Descarga directa |
+|---|---|---|
+| [GDD Amy.docx](Documentacion/GDD%20Amy.docx) | Diseño del juego con explicaciones sencillas, imágenes, organización del grupo, bitácora y pruebas pendientes. | [Descargar Word](https://github.com/hfreedo/Amy-Beyond-the-Skies/raw/refs/heads/main/Documentacion/GDD%20Amy.docx) |
+| [Inventario Amy.xlsx](Documentacion/Inventario%20Amy.xlsx) | Catálogo visual de los assets, con nombres, descripciones y cinco audios incrustados. | [Descargar Excel](https://github.com/hfreedo/Amy-Beyond-the-Skies/raw/refs/heads/main/Documentacion/Inventario%20Amy.xlsx) |
+| [Guía Amy.pptx](Documentacion/Gu%C3%ADa%20Amy.pptx) | Presentación para explicar los controles y las partes del juego. | [Descargar PowerPoint](https://github.com/hfreedo/Amy-Beyond-the-Skies/raw/refs/heads/main/Documentacion/Gu%C3%ADa%20Amy.pptx) |
+
+Para escuchar los audios del inventario, abrir el archivo en Excel de escritorio para Windows y hacer doble clic en el icono de cada sonido. Para recorrer la guía, iniciar la presentación con diapositivas en PowerPoint. En el GDD quedan espacios para completar los integrantes, las tareas y la bitácora del grupo.
+
+Estos documentos también se incluyen al descargar el repositorio completo mediante **Code → Download ZIP**.
+
+---
+
+## 📂 7. Estructura de carpetas del repositorio
 
 ```text
 Amy-Beyond-the-Skies/
+├── Documentacion/                                 # Documentos editables para el equipo y la exposición
+│   ├── GDD Amy.docx                               # Diseño, organización y bitácora del grupo
+│   ├── Inventario Amy.xlsx                        # Assets visuales y cinco audios incrustados
+│   └── Guía Amy.pptx                              # Presentación de controles y reglas
 ├── Proyecto/                                       # Versión vigente integrada
 │   ├── Amy_Beyond_the_Skies_integrado_v2.capx      # ⭐ Archivo principal para abrir en Construct 2
 │   └── INSTRUCCIONES_PARA_IA.md                    # Guía paso a paso de configuración y eventos
