@@ -1,0 +1,16 @@
+{
+  "resultado": "PASS",
+  "checks": [
+    "ZIP completo sin errores CRC",
+    "XML completo legible",
+    "Todas las animaciones referencian PNG v\u00e1lidos y completos",
+    "Animaciones iniciales existentes en todos los layouts",
+    "Amy: todos los fotogramas RGBA con transparencia y lienzo uniforme",
+    "SHA256 del CAPX coincide con el preview probado en Construct 2",
+    "Llegada valida apoyo sobre la plataforma del portal por UID",
+    "Festejo evaluado antes del salto autom\u00e1tico",
+    "Ayuda negra antigua eliminada del layout",
+    "Cuatro botones del men\u00fa admiten toque con protecci\u00f3n de doble activaci\u00f3n"
+  ],
+  "sha256": "0a7340bd2f2a69b5117d5c6296cd332e9308961620e023a3ff7b060086845940"
+}

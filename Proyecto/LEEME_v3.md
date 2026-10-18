@@ -21,3 +21,7 @@ No abrir el CAPX mediante una dirección que empiece por `C:/`. En esta instalac
 Se abrió este CAPX en Construct 2 y se ejecutó su preview real. Las 22 comprobaciones de `verificacion_runtime.json` pasaron: menú, animaciones según velocidad vertical, pausa/reanudación, rescate, conservación de progreso, reposicionamiento, festejo y victoria sin errores JavaScript. Para reproducir los casos de caída y llegada se reposicionaron objetos en el motor durante la prueba. No fue una partida manual completa.
 
 Los archivos PNG y las capturas están en esta carpeta. Las versiones anteriores y los GIF originales se conservaron. Usar el archivo terminado en **v3_corregido.capx** para estas mejoras.
+
+## Corrección de menú e instrucciones
+
+Corregido el clic que abría y cerraba Cómo jugar en el mismo instante por superponerse con el botón invisible Cerrar. Los botones ocultos no reciben acciones; ratón y toque comparten protección contra doble activación. Eliminado del juego el texto negro «Left & right arrows or tilt mobile device». Se verificaron 79 comprobaciones del menú en tres tamaños de pantalla, con emulación táctil, además de las 22 de jugabilidad en el motor real.

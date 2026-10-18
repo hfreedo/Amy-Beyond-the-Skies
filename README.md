@@ -1,11 +1,12 @@
 # ✨ Amy — Beyond the Skies (Aventura en el Cielo)
 
-## Versión vigente: v3.0
+## Versión vigente: v3.1
 
-Animaciones GIF, rescate con globos y llegada al portal corregida.
+Menú corregido para mouse y toque, sin el texto negro de instrucciones; conserva salto, rescate y festejo al aterrizar en la plataforma del portal.
 
 - **Abrir en Construct 2:** [`Proyecto/Amy_Beyond_the_Skies_animaciones_v3_corregido.capx`](Proyecto/Amy_Beyond_the_Skies_animaciones_v3_corregido.capx).
-- **Descargar:** [CAPX](https://github.com/hfreedo/Amy-Beyond-the-Skies/releases/download/v3.0/Amy_Beyond_the_Skies_animaciones_v3_corregido.capx) · [paquete de proyecto y recursos](https://github.com/hfreedo/Amy-Beyond-the-Skies/releases/download/v3.0/Amy_actual_v3.zip).
+- **Descargar:** [CAPX](https://github.com/hfreedo/Amy-Beyond-the-Skies/releases/download/v3.1/Amy_Beyond_the_Skies_animaciones_v3_corregido.capx) · [paquete de proyecto y recursos](https://github.com/hfreedo/Amy-Beyond-the-Skies/releases/download/v3.1/Amy_actual_v3_1.zip).
+- **Abrir en Windows:** ejecutar [`Proyecto/ABRIR_AMY.cmd`](Proyecto/ABRIR_AMY.cmd) desde el Explorador tras extraer el paquete.
 - **Historial:** [CHANGELOG.md](CHANGELOG.md). Las versiones anteriores se conservan en Git y Releases.
 - **Pruebas y límites:** [Proyecto/VALIDACION.md](Proyecto/VALIDACION.md). Los recursos de etapas anteriores conservan sus nombres originales.
 
@@ -18,7 +19,7 @@ Animaciones GIF, rescate con globos y llegada al portal corregida.
   <a href="https://github.com/hfreedo/Amy-Beyond-the-Skies/releases/latest/download/Amy_Beyond_the_Skies_animaciones_v3_corregido.capx">
     <img src="https://img.shields.io/badge/🎮_Descargar_Proyecto_Construct_2-Amy__animaciones__v3.capx-d946ef?style=for-the-badge" alt="Descargar CAPX v3 corregido">
   </a>
-  <a href="https://github.com/hfreedo/Amy-Beyond-the-Skies/releases/download/v3.0/Amy_actual_v3.zip">
+  <a href="https://github.com/hfreedo/Amy-Beyond-the-Skies/releases/download/v3.1/Amy_actual_v3_1.zip">
     <img src="https://img.shields.io/badge/📦_Descargar_Kit_de_Recursos-Amy__recursos.zip-8b5cf6?style=for-the-badge" alt="Descargar Kit de Recursos">
   </a>
 </p>
@@ -37,11 +38,11 @@ Elige la opción que mejor se adapte a lo que necesitas:
 
 1. **Solo quiero abrir el juego actualizado en Construct 2 (Recomendado):**
    - Haz clic en el botón rosa superior **🎮 Descargar Proyecto Construct 2 (`Amy_Beyond_the_Skies_animaciones_v3_corregido.capx`)** o entra en [`Proyecto/Amy_Beyond_the_Skies_animaciones_v3_corregido.capx`](Proyecto/Amy_Beyond_the_Skies_animaciones_v3_corregido.capx) y pulsa **Download raw file**.
-2. **Quiero descargar los paquetes `.zip` de recursos y animaciones v2:**
+2. **Quiero descargar el paquete vigente con el proyecto y las animaciones:**
    - Haz clic en el botón violeta **📦 Descargar Kit de Recursos** o entra a la sección [**Releases (Lanzamientos)**](https://github.com/hfreedo/Amy-Beyond-the-Skies/releases), donde encontrarás:
      - `Amy_Beyond_the_Skies_animaciones_v3_corregido.capx` (Proyecto integrado listo para Construct 2)
-     - `Amy_animaciones_actuales.zip` (Paquete de animaciones y sonidos v2)
-     - `Amy_recursos_para_integracion.zip` (Kit completo de recursos y documentación)
+     - `Amy_actual_v3_1.zip` (Proyecto v3.1, animaciones v3, acceso de apertura e informes de validación)
+     - Los paquetes de animaciones y recursos v2 permanecen en las publicaciones anteriores.
 3. **Quiero descargar todo el repositorio (proyecto, imprimibles, catálogos HTML, música, videos y portadas):**
    - Arriba a la derecha en esta página de GitHub, haz clic en el botón verde **`<> Code`** y selecciona **`Download ZIP`**. Luego descomprime la carpeta en tu PC.
 
@@ -69,7 +70,7 @@ Elige la opción que mejor se adapte a lo que necesitas:
   - **Salto automático:** Al aterrizar sobre una plataforma lavanda (`Platform`), Amy rebota automáticamente hacia arriba para seguir subiendo.
 - **Inicio y Meta de la Demo:**
   - Al iniciar el nivel se muestra el cartel **«¡Vamos, Amy!»** (`inicio_vamos_amy.png`).
-  - Al alcanzar el **Portal de Llegada** (`portal_llegada.png`) en la cima de la demo, se activan los destellos de victoria y el panel **«¡Demo completada!»** (`final_demo_completada.png`) con opciones para volver a jugar o ir al menú.
+  - Al aterrizar sobre la plataforma del **Portal de Llegada** (`portal_llegada.png`) en la cima de la demo, se activan los destellos de victoria y el panel **«¡Demo completada!»** (`final_demo_completada.png`) con opciones para volver a jugar o ir al menú.
 
 ---
 

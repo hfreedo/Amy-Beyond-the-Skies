@@ -1,0 +1,703 @@
+{
+  "resultado": "PASS",
+  "tests": [
+    "Carga del menú en motor Construct 2",
+    "Salto usa impulso, ascenso y caída",
+    "Caída corresponde al movimiento descendente",
+    "Pausa existente funciona",
+    "Reanudación existente funciona",
+    "Caída activa globos y suspende física",
+    "Rescate conserva cámara y progreso",
+    "Se conserva la plataforma segura",
+    "Rescate no crea plataformas duplicadas",
+    "Amy asciende durante el rescate",
+    "Animación de globos avanza",
+    "Llega al punto seguro con pose normal",
+    "Reanuda el juego con física habilitada",
+    "La creación del portal registra su plataforma real",
+    "Tocar el portal en ascenso no activa festejo",
+    "Aterrizar en otra plataforma aunque roce el portal no activa festejo",
+    "Aterrizar sobre la plataforma del portal activa festejo antes del rebote",
+    "Portal inicia festejo antes del panel",
+    "Festejo avanza sin reiniciarse",
+    "Panel aparece al terminar festejo",
+    "Victoria no reinicia ni vuelve a rescate",
+    "Sin errores JavaScript"
+  ],
+  "samples": [
+    {
+      "t": 21.19999998807907,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 57.50999999999988
+    },
+    {
+      "t": 47.799999952316284,
+      "anim": "impulso",
+      "frame": 0,
+      "dy": -790.9550000000003
+    },
+    {
+      "t": 67.59999996423721,
+      "anim": "impulso",
+      "frame": 0,
+      "dy": -766.3850000000006
+    },
+    {
+      "t": 83.59999996423721,
+      "anim": "impulso",
+      "frame": 0,
+      "dy": -742.7600000000006
+    },
+    {
+      "t": 104.29999995231628,
+      "anim": "impulso",
+      "frame": 1,
+      "dy": -718.1899999999996
+    },
+    {
+      "t": 123.19999998807907,
+      "anim": "impulso",
+      "frame": 1,
+      "dy": -693.4850000000006
+    },
+    {
+      "t": 142.0999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -661.0850000000007
+    },
+    {
+      "t": 161.89999997615814,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -644.4800000000005
+    },
+    {
+      "t": 180.5,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -611.5399999999997
+    },
+    {
+      "t": 201.0999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -611.5399999999997
+    },
+    {
+      "t": 222.29999995231628,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -558.17
+    },
+    {
+      "t": 240.29999995231628,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -534.0049999999992
+    },
+    {
+      "t": 263.69999998807907,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -501.06499999999966
+    },
+    {
+      "t": 295.5999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -468.5299999999992
+    },
+    {
+      "t": 300.19999998807907,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -459.6199999999999
+    },
+    {
+      "t": 323.39999997615814,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -426.5449999999999
+    },
+    {
+      "t": 342,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -410.3449999999999
+    },
+    {
+      "t": 362,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -370.11499999999967
+    },
+    {
+      "t": 381.19999998807907,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -345.2749999999989
+    },
+    {
+      "t": 402.69999998807907,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -312.1999999999989
+    },
+    {
+      "t": 420.39999997615814,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -288.16999999999985
+    },
+    {
+      "t": 442.69999998807907,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -264.0049999999991
+    },
+    {
+      "t": 461.5999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -237.94999999999885
+    },
+    {
+      "t": 481.7999999523163,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -206.49499999999983
+    },
+    {
+      "t": 500.5999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -181.92499999999885
+    },
+    {
+      "t": 522.5999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -149.3899999999996
+    },
+    {
+      "t": 541.6999999880791,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -132.64999999999887
+    },
+    {
+      "t": 561.2999999523163,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -108.75499999999911
+    },
+    {
+      "t": 582,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -83.7799999999991
+    },
+    {
+      "t": 601.7999999523163,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -51.109999999999346
+    },
+    {
+      "t": 621.3999999761581,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -34.5049999999991
+    },
+    {
+      "t": 640.8999999761581,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -2.374999999998855
+    },
+    {
+      "t": 663.7999999523163,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 30.970000000000898
+    },
+    {
+      "t": 680.5,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 46.63000000000139
+    },
+    {
+      "t": 701.2999999523163,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 79.30000000000113
+    },
+    {
+      "t": 731.5,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 112.37500000000114
+    },
+    {
+      "t": 740.1999999880791,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 136.8100000000004
+    },
+    {
+      "t": 760.3999999761581,
+      "anim": "impulso",
+      "frame": 0,
+      "dy": -800
+    },
+    {
+      "t": 780.5999999642372,
+      "anim": "impulso",
+      "frame": 0,
+      "dy": -783.529999999999
+    },
+    {
+      "t": 801.2999999523163,
+      "anim": "impulso",
+      "frame": 0,
+      "dy": -750.7249999999999
+    },
+    {
+      "t": 820.6999999880791,
+      "anim": "impulso",
+      "frame": 1,
+      "dy": -718.054999999999
+    },
+    {
+      "t": 840.8999999761581,
+      "anim": "impulso",
+      "frame": 1,
+      "dy": -693.4849999999993
+    },
+    {
+      "t": 863.0999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -660.5449999999998
+    },
+    {
+      "t": 880.6999999880791,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -636.2449999999999
+    },
+    {
+      "t": 900.1999999880791,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -611.6750000000001
+    },
+    {
+      "t": 924.3999999761581,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -578.8699999999999
+    },
+    {
+      "t": 941,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -554.3000000000002
+    },
+    {
+      "t": 961.6999999880791,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -529.7299999999992
+    },
+    {
+      "t": 980.8999999761581,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -504.88999999999965
+    },
+    {
+      "t": 1001.0999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -480.58999999999963
+    },
+    {
+      "t": 1021.0999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -447.7849999999994
+    },
+    {
+      "t": 1040.2999999523163,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -430.9099999999994
+    },
+    {
+      "t": 1062.8999999761581,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -390.5449999999999
+    },
+    {
+      "t": 1080.5999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -374.2099999999994
+    },
+    {
+      "t": 1100.7999999523163,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -341.26999999999987
+    },
+    {
+      "t": 1121.5999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -308.8699999999998
+    },
+    {
+      "t": 1140.8999999761581,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -284.30000000000007
+    },
+    {
+      "t": 1162.199999988079,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -259.8649999999996
+    },
+    {
+      "t": 1181.5999999642372,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -235.15999999999937
+    },
+    {
+      "t": 1201,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -202.21999999999986
+    },
+    {
+      "t": 1221.7999999523163,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -177.6500000000001
+    },
+    {
+      "t": 1241.7999999523163,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -152.94499999999985
+    },
+    {
+      "t": 1260.199999988079,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -129.0500000000001
+    },
+    {
+      "t": 1281,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -96.37999999999911
+    },
+    {
+      "t": 1300.7999999523163,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -71.67500000000011
+    },
+    {
+      "t": 1322.3999999761581,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -38.86999999999987
+    },
+    {
+      "t": 1341.5,
+      "anim": "ascenso",
+      "frame": 0,
+      "dy": -13.354999999999134
+    },
+    {
+      "t": 1360.5999999642372,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 10.270000000000866
+    },
+    {
+      "t": 1382.5999999642372,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 42.940000000000616
+    },
+    {
+      "t": 1400.8999999761581,
+      "anim": "caida",
+      "frame": 0,
+      "dy": 59.410000000000366
+    }
+  ],
+  "captures": [
+    {
+      "file": "01_salto.png",
+      "layout": "Layout 1",
+      "vars": {
+        "PlataformaPortalUID": -1,
+        "MinScroll": -82.49363230729143,
+        "NextPlatform": -510.8982361487457,
+        "EstadoVisual": "caida",
+        "EstadoJuego": "jugando",
+        "PlataformasCreadas": 3,
+        "JuegoPausado": 0,
+        "UltimoTickPausa": -100,
+        "EsperaRescate": 0,
+        "PlataformaSeguraUID": 1,
+        "RescateY": 155.4743623661413,
+        "RescateX": 76,
+        "MenuUltimoClickTick": -100,
+        "ModalAbiertoTick": -100,
+        "ModalAbierto": 0
+      },
+      "p": {
+        "x": 77.31535339355469,
+        "y": -78.95840930729138,
+        "dy": 92.89000000000061,
+        "enabled": true
+      },
+      "a": {
+        "anim": "caida",
+        "frame": 0,
+        "visible": true,
+        "w": 150,
+        "h": 187.5
+      },
+      "panel": false,
+      "platforms": [
+        1,
+        8,
+        15,
+        951,
+        953,
+        955
+      ]
+    },
+    {
+      "file": "02_rescate_globos.png",
+      "layout": "Layout 1",
+      "vars": {
+        "PlataformaPortalUID": -1,
+        "MinScroll": -82.49363230729143,
+        "NextPlatform": -510.8982361487457,
+        "EstadoVisual": "globos",
+        "EstadoJuego": "rescate",
+        "PlataformasCreadas": 3,
+        "JuegoPausado": 0,
+        "UltimoTickPausa": 269,
+        "EsperaRescate": 0,
+        "PlataformaSeguraUID": 1,
+        "RescateY": 155.4743623661413,
+        "RescateX": 76,
+        "MenuUltimoClickTick": -100,
+        "ModalAbiertoTick": -100,
+        "ModalAbierto": 0
+      },
+      "p": {
+        "x": 76,
+        "y": 314.72636769270895,
+        "dy": 0,
+        "enabled": false
+      },
+      "a": {
+        "anim": "globos",
+        "frame": 3,
+        "visible": true,
+        "w": 150,
+        "h": 187.5
+      },
+      "panel": false,
+      "platforms": [
+        1,
+        8,
+        15,
+        951,
+        953,
+        955
+      ]
+    },
+    {
+      "file": "03_reposicionada.png",
+      "layout": "Layout 1",
+      "vars": {
+        "PlataformaPortalUID": -1,
+        "MinScroll": -82.49363230729143,
+        "NextPlatform": -510.8982361487457,
+        "EstadoVisual": "quieta",
+        "EstadoJuego": "reposicionada",
+        "PlataformasCreadas": 3,
+        "JuegoPausado": 0,
+        "UltimoTickPausa": 269,
+        "EsperaRescate": 0.006100000000000364,
+        "PlataformaSeguraUID": 1,
+        "RescateY": 155.4743623661413,
+        "RescateX": 76,
+        "MenuUltimoClickTick": -100,
+        "ModalAbiertoTick": -100,
+        "ModalAbierto": 0
+      },
+      "p": {
+        "x": 76,
+        "y": 155.4743623661413,
+        "dy": 0,
+        "enabled": false
+      },
+      "a": {
+        "anim": "quieta",
+        "frame": 0,
+        "visible": true,
+        "w": 150,
+        "h": 187.5
+      },
+      "panel": false,
+      "platforms": [
+        1,
+        8,
+        15,
+        951,
+        953,
+        955
+      ]
+    },
+    {
+      "file": "04_festejo.png",
+      "layout": "Layout 1",
+      "vars": {
+        "PlataformaPortalUID": 957,
+        "MinScroll": -554.6404245750085,
+        "NextPlatform": -9999999,
+        "EstadoVisual": "festejo",
+        "EstadoJuego": "festejando",
+        "PlataformasCreadas": 99,
+        "JuegoPausado": 0,
+        "UltimoTickPausa": 269,
+        "EsperaRescate": 0.18169999999999983,
+        "PlataformaSeguraUID": 959,
+        "RescateY": -471.59841507500875,
+        "RescateX": 240,
+        "MenuUltimoClickTick": -100,
+        "ModalAbiertoTick": -100,
+        "ModalAbierto": 0
+      },
+      "p": {
+        "x": 160,
+        "y": -481.26648194115035,
+        "dy": 0,
+        "enabled": false
+      },
+      "a": {
+        "anim": "festejo",
+        "frame": 0,
+        "visible": true,
+        "w": 150,
+        "h": 187.5
+      },
+      "panel": false,
+      "platforms": [
+        955,
+        957,
+        959
+      ]
+    },
+    {
+      "file": "04_festejo_visible.png",
+      "layout": "Layout 1",
+      "vars": {
+        "PlataformaPortalUID": 957,
+        "MinScroll": -554.6404245750085,
+        "NextPlatform": -9999999,
+        "EstadoVisual": "festejo",
+        "EstadoJuego": "festejando",
+        "PlataformasCreadas": 99,
+        "JuegoPausado": 0,
+        "UltimoTickPausa": 269,
+        "EsperaRescate": 0.18169999999999983,
+        "PlataformaSeguraUID": 959,
+        "RescateY": -471.59841507500875,
+        "RescateX": 240,
+        "MenuUltimoClickTick": -100,
+        "ModalAbiertoTick": -100,
+        "ModalAbierto": 0
+      },
+      "p": {
+        "x": 160,
+        "y": -481.26648194115035,
+        "dy": 0,
+        "enabled": false
+      },
+      "a": {
+        "anim": "festejo",
+        "frame": 13,
+        "visible": true,
+        "w": 150,
+        "h": 187.5
+      },
+      "panel": false,
+      "platforms": [
+        955,
+        957,
+        959
+      ]
+    },
+    {
+      "file": "05_victoria.png",
+      "layout": "Layout 1",
+      "vars": {
+        "PlataformaPortalUID": 957,
+        "MinScroll": -554.6404245750085,
+        "NextPlatform": -9999999,
+        "EstadoVisual": "festejo",
+        "EstadoJuego": "victoria",
+        "PlataformasCreadas": 99,
+        "JuegoPausado": 0,
+        "UltimoTickPausa": 269,
+        "EsperaRescate": 0.18169999999999983,
+        "PlataformaSeguraUID": 959,
+        "RescateY": -471.59841507500875,
+        "RescateX": 240,
+        "MenuUltimoClickTick": -100,
+        "ModalAbiertoTick": -100,
+        "ModalAbierto": 0
+      },
+      "p": {
+        "x": 160,
+        "y": -481.26648194115035,
+        "dy": 0,
+        "enabled": false
+      },
+      "a": {
+        "anim": "festejo",
+        "frame": 42,
+        "visible": true,
+        "w": 150,
+        "h": 187.5
+      },
+      "panel": true,
+      "platforms": [
+        955,
+        957,
+        959
+      ]
+    }
+  ],
+  "errors": [],
+  "sha256": "0a7340bd2f2a69b5117d5c6296cd332e9308961620e023a3ff7b060086845940",
+  "alcance": "Motor real de Construct 2 en preview. Caída, contactos aéreos y aterrizajes preparados reposicionando objetos para probar las transiciones; no es una partida completa."
+}
